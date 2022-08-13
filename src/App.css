@@ -1,3 +1,28 @@
+body {
+  height: 100vh; /* TODO: 100% of vh */
+}
+h1 {
+  margin-top: 0;
+}
+
+.controller {
+  display: flex;
+  justify-content: space-evenly;
+}
+button {
+  padding: 5px;
+  font-size: 1.3rem;
+  box-shadow: 0.04rem 0.06rem #333;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  background-color: #999;
+}
+
+.letter {
+  font-size: 18rem;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +60,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.page {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
 }
